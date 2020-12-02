@@ -5,7 +5,8 @@
             <h2>
                 Reset Password
             </h2>
-            
+        
+        <%- include ("./messages") %>
             <form action="/users/reset/<%= id %>"  method="POST">
                 <div class="form-group">
                     <label for="password">Password</label>
